@@ -60,6 +60,40 @@ section.banner img{
 	vertical-align:bottom;
 }
 
+/* Portfolio区 */
+section.portfolio{
+	margin-top:68px;
+}
+section.portfolio>hgroup,section.portfolio>nav{
+	width:780px;
+	margin:0 auto;
+	text-align:center;
+}
+section.portfolio>hgroup>h3{
+	font-size:48px;
+	line-height:140px;
+	color:#f46208;
+}
+section.portfolio>hgroup>p{
+	font-size:14px;
+	color:#000;
+}
+section.portfolio>nav{
+	font-size:0;
+}
+section.portfolio>nav>a{
+	margin:68px 8px 52px;
+	display:inline-block;
+	padding:12px;
+	border:1px solid #f46208;
+	font-size:16px;
+	color:#f46208;
+}
+section.portfolio>img{
+	width:100%;
+	vertical-align:bottom;
+}
+
 /* 页脚区 */
 footer{
 	height:110px;
