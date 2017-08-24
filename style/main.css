@@ -26,7 +26,6 @@ header>.container>a>img{
 }
 header>.container>nav{
 	float:right;
-	font-size:0;
 	height:94px;
 	line-height:94px;
 }
@@ -78,9 +77,6 @@ section.portfolio>hgroup>p{
 	font-size:14px;
 	color:#000;
 }
-section.portfolio>nav{
-	font-size:0;
-}
 section.portfolio>nav>a{
 	margin:68px 8px 52px;
 	display:inline-block;
@@ -92,6 +88,70 @@ section.portfolio>nav>a{
 section.portfolio>img{
 	width:100%;
 	vertical-align:bottom;
+}
+
+/* Stats区 */
+section.stats{
+	margin-top:68px;
+}
+section.stats>hgroup{
+	width:780px;
+	margin:0 auto;
+	text-align:center;
+}
+section.stats>hgroup>h3{
+	font-size:48px;
+	line-height:140px;
+	color:#f46208;
+}
+section.stats>hgroup>p{
+	font-size:14px;
+	color:#000;
+}
+section.stats>hgroup.details{
+	width:848px;
+	margin-top:72px;
+	margin-bottom:214px;
+}
+section.stats>hgroup.details>dl{
+	display:inline-block;
+	position:relative;
+	text-align:center;
+}
+section.stats>hgroup.details>dl.margins{
+	width:138px;
+	margin-right:142px;
+}
+section.stats>hgroup.details>dl.completed{
+	width:108px;
+	margin-right:146px;
+}
+section.stats>hgroup.details>dl.projects{
+	width:74px;
+	margin-right:142px;
+}
+section.stats>hgroup.details>dl:last-of-type{
+	margin-right:0;
+}
+section.stats>hgroup.details>dl>dt{
+	position:absolute;
+	display:inline-block;
+	top:78px;
+	left:0;
+	right:0;
+	font-size:16px;
+}
+section.stats>hgroup.details>dl>dd:last-of-type{
+	position:absolute;
+	top:124px;
+	left:0;
+	right:0;
+	font-size:24px;
+	letter-spacing:10px;
+	color:#f46208;
+}
+section.stats>hgroup.details>dl>dd>img{
+	display:inline-block;
 }
 
 /* 页脚区 */
