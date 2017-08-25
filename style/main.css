@@ -154,6 +154,68 @@ section.stats>hgroup.details>dl>dd>img{
 	display:inline-block;
 }
 
+/* Team区 */
+section.team{
+	background:#2e2e2e;
+	padding-top:68px;
+}
+section.team>hgroup{
+	width:780px;
+	margin:0 auto;
+	text-align:center;
+}
+section.team>hgroup>h3{
+	font-size:48px;
+	line-height:140px;
+	color:#f46208;
+}
+section.team>hgroup>p{
+	font-size:14px;
+	color:#fff;
+}
+section.team>hgroup.members{
+	width:836px;
+}
+section.team>hgroup.members>dl{
+	display:inline-block;
+	position:relative;
+	margin-top:72px;
+	margin-bottom:152px;
+}
+section.team>hgroup.members>dl.abigail{
+	width:234px;
+	margin-right:76px;
+}
+section.team>hgroup.members>dl.andy{
+	width:200px;
+	margin-right:76px;
+}
+section.team>hgroup.members>dl.jacqueline{
+	width:234px;
+}
+section.team>hgroup.members>dl>dt{
+	position:absolute;
+	top:208px;
+	left:0;
+	right:0;
+	font-size:12px;
+	color:#fff;
+}
+section.team>hgroup.members>dl>dd{
+	font-size:10px;
+	color:#fff;
+}
+section.team>hgroup.members>dl>dd:last-of-type{
+	position:absolute;
+	top:224px;
+	left:0;
+	right:0;
+}
+section.team>hgroup.members>dl>dd>img{
+	overflow:hidden;
+	vertical-align:bottom;
+}
+
 /* 页脚区 */
 footer{
 	height:110px;
