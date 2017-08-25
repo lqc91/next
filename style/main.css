@@ -266,6 +266,7 @@ section.contact>form>button{
 	height:58px;
 	border:0;
 	background:#f46208;
+	font-size:16px;
 	color:#fff;
 }
 
@@ -273,4 +274,10 @@ section.contact>form>button{
 footer{
 	height:110px;
 	background:#000;
+}
+footer>p{
+	font-size:14px;
+	color:#fff;
+	text-align:center;
+	line-height:110px;
 }
