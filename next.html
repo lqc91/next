@@ -3,13 +3,12 @@
 <head>
 <meta charset="UTF-8">
 <title>next</title>
-<link rel="stylesheet" type="text/css" href="style/reset.css">
 <link rel="stylesheet" type="text/css" href="style/main.css">
 </head>
 <body>
 <!-- 顶部 -->
 <header>
-    <div class="container clearfix">
+    <div class="container">
         <a href="next.html"><img src="img/logo.jpg" alt="NEXT LOGO"></a>
         <nav>
             <a href="#">HOME</a>
@@ -33,7 +32,7 @@
 
 <!-- Portfolie区 -->
 <section class="portfolio">
-	<hgroup>
+	<hgroup class="m-intro">
 		<h3>Portfolio</h3>
 		<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean eu sollicitudin justo, at pretium felis. Sed commodo arcu sit amet dolor porttitor elementum</p>
 	</hgroup>
@@ -50,29 +49,29 @@
 
 <!-- Stats区 -->
 <section class="stats">
-	<hgroup>
+	<hgroup class="m-intro">
 		<h3>Stats</h3>
 		<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean eu sollicitudin justo, at pretium felis. Sed commodo arcu sit amet dolor porttitor elementum</p>
 	</hgroup>
 	<hgroup class="details">
-		<dl class="margins">
+		<dl class="m-dlst margins">
 			<dt>Margins</dt>
-			<dd><img src="img/stats1.jpg" alt="stats1"></dd>
+			<dd class="bgi"></dd>
 			<dd>12,000</dd>
 		</dl>
-		<dl class="completed">
+		<dl class="m-dlst completed">
 			<dt>Completed</dt>
-			<dd><img src="img/stats2.jpg" alt="stats2"></dd>
+			<dd class="bgi"></dd>
 			<dd>5,681</dd>
 		</dl>
-		<dl class="projects">
+		<dl class="m-dlst projects">
 			<dt>Projects</dt>
-			<dd><img src="img/stats3.jpg" alt="stats3"></dd>
+			<dd class="bgi"></dd>
 			<dd>432</dd>
 		</dl>
-		<dl class="customers">
+		<dl class="m-dlst customers">
 			<dt>Customers</dt>
-			<dd><img src="img/stats4.jpg" alt="stats4"></dd>
+			<dd class="bgi"></dd>
 			<dd>86</dd>
 		</dl>
 	</hgroup>
@@ -81,24 +80,24 @@
 
 <!-- Team区 -->
 <section class="team">
-	<hgroup>
+	<hgroup class="m-intro">
 		<h3>Team</h3>
 		<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean eu sollicitudin justo, at pretium felis. Sed commodo arcu sit amet dolor porttitor elementum</p>
 	</hgroup>
 	<hgroup class="members">
-		<dl class="abigail">
+		<dl class="m-dlst abigail">
 			<dt>Abigail</dt>
-			<dd><img src="img/team1.jpg" alt="team1"></dd>
+			<dd class="u-img"><img src="img/team1.jpg" alt="team1"></dd>
 			<dd>Lorem ipsum dolor sit amet, consectetur adipiscing elit</dd>
 		</dl>
-		<dl class="andy">
+		<dl class="m-dlst andy">
 			<dt>Andy</dt>
-			<dd><img src="img/team2.jpg" alt="team2"></dd>
+			<dd class="u-img"><img src="img/team2.jpg" alt="team2"></dd>
 			<dd>Lorem ipsum dolor sit amet, consectetur adipiscing elit</dd>
 		</dl>
-		<dl class="jacqueline">
+		<dl class="m-dlst jacqueline">
 			<dt>Jacqueline</dt>
-			<dd><img src="img/team3.jpg" alt="team3"></dd>
+			<dd class="u-img"><img src="img/team3.jpg" alt="team3"></dd>
 			<dd>Lorem ipsum dolor sit amet, consectetur adipiscing elit</dd>
 		</dl>
 	</hgroup>
@@ -107,15 +106,15 @@
 
 <!-- Contact us -->
 <section class="contact">
-	<hgroup>
+	<hgroup class="m-intro">
 		<h3>Contact Us</h3>
 		<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean eu sollicitudin justo, at pretium felis. Sed commodo arcu sit amet dolor porttitor elementum</p>
 	</hgroup>
 	<form action="#">
-		<input type="text" placeholder="Full Name">
-		<input type="email" placeholder="Email">
-		<textarea name="" id="" placeholder="Message"></textarea>
-		<button type="submit">Submit Message</button>
+		<input name="name" type="text" placeholder="Full Name">
+		<input name="email" type="email" placeholder="Email">
+		<textarea name="message" id="message" placeholder="Message"></textarea>
+		<input type="submit" value="Submit Message">
 	</form>
 </section>
 <!-- /Contact us -->
