@@ -96,18 +96,22 @@ header>.container>a{
 	margin-top:33px;
 	margin-left:22px;
 }
-header>.container>a>img{
+header a>img{
 	vertical-align:bottom;
 }
-header>.container>nav{
+header nav{
 	float:right;
 	height:94px;
 	line-height:94px;
 }
-header>.container>nav>a{
+header nav>a{
 	margin-left:50px;
 	font-size:12px;
 	color:#fff;
+}
+header nav>a:hover{
+	background:#f00;
+	color:#2e2e2e;
 }
 
 /* banner */
@@ -148,6 +152,10 @@ header>.container>nav>a{
 	border:1px solid #f46208;
 	font-size:16px;
 	color:#f46208;
+}
+.portfolio>nav>a:hover{
+	background:#f46208;
+	color:#fff;
 }
 .portfolio>img{
 	width:100%;
@@ -205,11 +213,11 @@ header>.container>nav>a{
 	left:16px;
 }
 .details>dl>dt{
-	display:inline-block;
 	top:78px;
 	left:0;
 	right:0;
 	font-size:16px;
+	color:#000;
 }
 .details>dl>dd:last-of-type{
 	top:124px;
@@ -312,13 +320,16 @@ header>.container>nav>a{
 	vertical-align:middle;
 	color:#a9a9a9;
 }
-.contact>form>input:last-of-type{
+.contact>form>.submit{
 	width:200px;
 	height:58px;
 	border:0;
 	background:#f46208;
 	font-size:16px;
 	color:#fff;
+}
+.contact>form>.submit:hover{
+	cursor:pointer;
 }
 
 /* 页脚区 */
