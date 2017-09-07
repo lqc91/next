@@ -157,8 +157,13 @@ header nav>a:hover{
 	background:#f46208;
 	color:#fff;
 }
-.portfolio>img{
+.portfolio>.portImg{
 	width:100%;
+	font-size:0;
+}
+.portfolio>.portImg>img{
+	font-size:14px;
+	width:25%;
 	vertical-align:bottom;
 }
 
